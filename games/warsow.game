@@ -12,7 +12,7 @@
   unknowngamename="Custom Warsow modification"
   shaderpath="scripts"
   archivetypes="pk3"
-  texturetypes="tga jpg png"
+  texturetypes="tga jpg png ktx"
   modeltypes="md3 ase lwo obj 3ds picoterrain"
   maptypes="mapq3"
   shaders="quake3"
