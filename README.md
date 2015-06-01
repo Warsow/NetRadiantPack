@@ -1,2 +1,2 @@
 # WarsowPack
-Warsow game pack for [NetRadient](https://github.com/xonotic/netradient).
+Warsow game pack for [NetRadiant](https://gitlab.com/xonotic/netradiant).
