@@ -5,7 +5,7 @@ build commands
 [EnginePath]: path to the engine .. 
 -->
 <project version="2.0">
-<var name="q3map2">&quot;[RadiantPath]q3map2.[ExecutableType]&quot;<cond value="[MonitorAddress]"> -connect [MonitorAddress]</cond> -game qfusion -fs_basepath &quot;[EnginePath]&quot;<cond value="[GameName]"> -fs_game [GameName]</cond></var>
+<var name="q3map2">&quot;[RadiantPath]q3map2.[ExecutableType]&quot; [ExtraQ3map2Args]<cond value="[MonitorAddress]"> -connect [MonitorAddress]</cond> -game qfusion -fs_basepath &quot;[EnginePath]&quot;<cond value="[GameName]"> -fs_game [GameName]</cond></var>
 <build name="Q3Map2: Quick Test Build (very low quality)">
 <command>[q3map2] -meta -minsamplesize 16 -samplesize 32 -maxarea -mv 32000 -mi 32000 -custinfoparms &quot;[MapFile]&quot;</command>
 <command>[q3map2] -vis -saveprt &quot;[MapFile]&quot;</command>
